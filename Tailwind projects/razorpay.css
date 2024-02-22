@@ -1,0 +1,23 @@
+.featuresection {
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.imageAnimate {
+    animation: 10s infinite linear scrollImage;
+}
+
+@keyframes scrollImage {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: -50%;
+    }
+}
+
+.lastsection {
+    background-size: 100% 100%;
+}
